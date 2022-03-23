@@ -206,11 +206,11 @@ function doWhile(numero) {
   //Retornar el valor final.
   //Usar el bucle do ... while.
   var i = 0
-  var suma = numero;
+  var suma = numero
   do {
-    suma += 5;
+    suma +=5
     i++;
-  } while (i <= 8) {
+  } while (i < 8) {
     return suma;
   }
 }
